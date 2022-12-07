@@ -19,7 +19,7 @@ public class ProgramRectangle {
 		rectangle.height = sc.nextDouble();
 
 		rectangle.Area();
-		System.out.println("AREA = " + rectangle.Area());
+		System.out.printf("AREA = " + rectangle.Area());
 		
 		rectangle.Perimeter();
 		System.out.println("PERIMETER = " + rectangle.Perimeter());
@@ -29,5 +29,4 @@ public class ProgramRectangle {
 		sc.close();
 		
 	}
-
 }
